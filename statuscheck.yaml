@@ -31,6 +31,6 @@
       debug:
         msg: "{{ disk_usage.stdout_lines }}"
 
-    - name: Display Hard Disk usage& CPU
+    - name: Display Hard Disk usage&  verify
       debug:
         msg: "{{ disk_usage.stdout_lines }}"
